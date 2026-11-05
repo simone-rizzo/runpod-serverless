@@ -184,5 +184,4 @@ def handler(job):
 # Loaded once per worker, outside the handler, so only the cold start pays for it.
 MODEL = load_model()
 
-if __name__ == "__main__":
-    runpod.serverless.start({"handler": handler})
+runpod.serverless.start({"handler": handler})
