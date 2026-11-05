@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+rfdetr==1.11.2
+transformers==5.22.1
+supervision==0.31.4
+numpy==2.5.4
+pillow==13.0.0
+pycocotools==2.0.11
+requests
+runpod==2.1.0
